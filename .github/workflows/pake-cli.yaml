@@ -21,7 +21,7 @@ on:
         description: 'Icon, Image URL, Optional'
         required: false
       proxy_url:
-        description: '代理地址'
+        description: 'proxy_url'
         required: false
       width:
         description: 'Width, Optional'
