@@ -5,7 +5,7 @@ on:
       platform:
         description: 'Platform'
         required: true
-        default: 'macos-latest'
+        default: 'windows-latest'
         type: choice
         options:
           - 'windows-latest'
@@ -20,6 +20,10 @@ on:
       icon:
         description: 'Icon, Image URL, Optional'
         required: false
+      proxy_url:
+        description: '代理地址'
+        required: false
+        default: ''
       width:
         description: 'Width, Optional'
         required: false
