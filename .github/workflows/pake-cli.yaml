@@ -23,7 +23,6 @@ on:
       proxy_url:
         description: '代理地址'
         required: false
-        default: ''
       width:
         description: 'Width, Optional'
         required: false
